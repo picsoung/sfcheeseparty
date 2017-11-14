@@ -41,6 +41,18 @@
                                 {{ end }}
                             </ul>
                         {{ end }}
+
+                        {{ if .recommendations }}
+                          {{ $len := (div 12 (len .recommendations))}}
+                          <div class="row recommendations">
+                            <p> {{ .reco_details }}</p>
+                            {{ range .recommendations }}
+                            <div class="col-lg-{{$len}}">
+                              <a href="{{ .link }}" alt="{{ .name }}"><img src="{{ .image_link }}" style="max-width: calc(60% - 20px);"/></a>
+                            </div>
+                            {{ end }}
+                          </div>
+                        {{ end }}
                         {{ with $.Site.Params.portfolio.modal.buttonText }}
                             <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i>{{.}}</button>
                         {{ end }}

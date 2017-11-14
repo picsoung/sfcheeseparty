@@ -7,14 +7,25 @@ img: raclette_box.png
 # category: Web Development
 description: "To get your party started is very easy!\n
 
-We've partnered with [Omni](https://app.beomni.com/search?query=raclette) to handle our logistics.\n
+We've partnered with [Omni](https://app.beomni.com/search?query=raclette) for delivery and pickup.\n
 
 Follow those simple steps:\n
 
-1. Create a free account ($10 free credits)
+1. Create a free Omni account ($10 free credits)
 
 2. Select our [Party grill](https://app.beomni.com/search?query=raclette) object.
 
 3. Arrange delivery and pickup time.
 
-4. Enjoy 🎉!"
+4. Enjoy 🎉! \n"
+
+reco_details: "Find ingredients for your party online:"
+
+recommendations:
+  - link: http://instacart.com
+    name: instacart
+    image_link: '/img/instacart-logo-wordmark-transparent.png'
+
+  - link: http://amazon.com
+    name: amazon
+    image_link: '/img/amazon_logo_RGB.jpg'
