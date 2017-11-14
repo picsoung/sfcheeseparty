@@ -131,6 +131,27 @@ extensions = ["hardLineBreak"]
 		email = "hi@sfcheeseparty.com"
 		made_with = "Proudly made with 🧀 in San Francisco!"
 
+		[[params.contact.credits]]
+			name = "Cheese"
+			author = "Alina Oleynik"
+			author_link = "https://thenounproject.com/dorxela"
+			site_name = "Noun Project"
+			site_url = "https://thenounproject.com/icon/1035420/"
+
+		[[params.contact.credits]]
+			name = "Bacon"
+			author = "Angriawan Ditya Zulkarnain"
+			author_link = "https://thenounproject.com/zquencie"
+			site_name = "Noun Project"
+			site_url = "https://thenounproject.com/icon/1267281/"
+
+		[[params.contact.credits]]
+			name = "Cheese"
+			author = "Edward Boatman"
+			author_link = "https://thenounproject.com/edward"
+			site_name = "Noun Project"
+			site_url = "https://thenounproject.com/icon/590/"
+
 	# Google Maps section
 	# [params.location]
 	# 	latitude  = "34.007850"

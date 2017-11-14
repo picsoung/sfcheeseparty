@@ -42,6 +42,14 @@
                 <p>{{ .Site.Params.contact.made_with }}</p>
               </div>
             {{ end }}
+            {{ if .Site.Params.contact.credits }}
+              <div class="col-lg-8 col-lg-offset-2 text-center">
+                <h6>Credits</h6>
+                {{ range .Site.Params.contact.credits}}
+                  <p class="credits">{{ .name }} by <a href="{{ .author_link }}">{{ .author }}</a> on <a href="{{ .site_url }}">{{ .site_name }}</a></p>
+                {{end}}
+              </div>
+            {{ end }}
         </div>
     </div>
 </section>
