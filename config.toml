@@ -4,6 +4,8 @@ title = "SF Cheese Party 🌉🧀🎉"
 theme = "hugo-creative-theme"
 googleAnalytics = ""
 
+extensions = ["hardLineBreak"]
+
 [params]
 
 	# You can use Markdown syntax for urls [text](//url.to/source) for
@@ -56,15 +58,17 @@ googleAnalytics = ""
       title = "DIY"
       description = "Rent only the device and create your own party."
       image = "/img/raclette_pan.png"
-      price = "10"
+      price = "10/day"
       features = ["1 raclette grill device", "6 individual pan with scraper", "Free delivery"]
+			modalID = "diy-package"
 
     [[params.about.packages]]
       title = "Cheese Party"
       description = "All included, for more fun with friends."
       image = "/img/raclette_cheese_bacon.png"
-      price = "50"
+      price = "25/person"
       features = ["1 raclette grill device", "6 individual pan with scraper", "🧀 &nbsp; for 6 people (2lb)","🥓 &nbsp; selection of charcuterie", "🥔 &nbsp; tasty potatoes", "Free delivery"]
+			modalID = 1234
 
     # [[params.about.packages]]
     #   title = "Premium"
@@ -85,25 +89,25 @@ googleAnalytics = ""
 	[params.services]
 		headline = "At your service"
 
-        [[params.services.list]]
-            icon = "fa-diamond"
-            title = "Sturdy Templates"
-            description = "Our templates are updated regularly so they don't break."
+	  [[params.services.list]]
+      icon = "fa-fort-awesome"
+      title = "Authentic"
+      description = "Nothing can beat good food. Trust the French!"
 
-        [[params.services.list]]
-			icon = "fa-paper-plane"
-			title = "Ready to Ship"
-			description = "You can use this theme as is, or you can make changes!"
+	  [[params.services.list]]
+			icon = "fa-bolt"
+			title = "Easy"
+			description = "As easy as pie! We take care of everything for you, so you can focus on your party and friends."
 
 		[[params.services.list]]
-            icon = "fa-newspaper-o"
-            title = "Up to Date"
-            description = "We update dependencies to keep things fresh."
+      icon = "fa-grav"
+      title = "Original"
+      description = "Setup a trend and impress your friends."
 
-        [[params.services.list]]
-            icon = "fa-heart"
-            title = "Made with Love"
-            description = "You have to make your websites with love these days!"
+    [[params.services.list]]
+      icon = "fa-heart"
+      title = "Fun"
+      description = "Our parties are guaranteed 100% fun!"
 
 
     # Portfolio modals
@@ -124,9 +128,9 @@ googleAnalytics = ""
 	# Contact section
 	[params.contact]
 		headline = "Let's Get In Touch!"
-		description = "Ready to start your next project with us? That's great! Give us a call or send us an email and we will get back to you as soon as possible!"
-		phone = "123-456-6789"
-		email = "feedback@startbootstrap.com"
+		description = "Ready to host your next party with us? That's great! Give us a call or send us an email and we will get back to you as soon as possible!"
+		phone = "(510) 985-9458"
+		email = "hi@sfcheeseparty.com"
 
 	# Google Maps section
 	# [params.location]

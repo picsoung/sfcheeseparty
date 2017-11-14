@@ -24,14 +24,14 @@
                   <div class="cotent">
                       <h3 class="category">{{ .title }}</h3>
                       <h4 class="">{{ .description }}</h4>
-                      <img src="{{ .image }}" class="img-responsive" />
+                      <img src="{{ .image }}" style="max-height:200px;" />
                       <h1 class="bs-caption"><small>$</small>{{ .price}}</h1>
                       <ul>
                         {{ range .features }}
                           <li>{{ . | safeHTML }}</li>
                         {{ end }}
                       </ul>
-                      <a href="https://bootstrapthemes.co" class="btn btn-danger">Book it now</a>
+                      <a href="#portfolioModal{{ .modalID }}" class="btn btn-danger" data-toggle="modal">Book it now</a>
                   </div>
               </div>
           </div>
