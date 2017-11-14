@@ -35,8 +35,6 @@ extensions = ["hardLineBreak"]
 
 		[params.navigation.links]
 			about     = "About"
-			services  = "Services"
-			portfolio = "Portfolio"
 			contact   = "Contact"
 
 
@@ -68,7 +66,7 @@ extensions = ["hardLineBreak"]
       image = "/img/raclette_cheese_bacon.png"
       price = "25/person"
       features = ["1 raclette grill device", "6 individual pan with scraper", "🧀 &nbsp; for 6 people (2lb)","🥓 &nbsp; selection of charcuterie", "🥔 &nbsp; tasty potatoes", "Free delivery"]
-			modalID = 1234
+			modalID = 'full-experience'
 
     # [[params.about.packages]]
     #   title = "Premium"

@@ -15,6 +15,9 @@
                         {{ with .title }}
                             <h2>{{ . }}</h2>
                         {{ end }}
+                        {{ with .form }}
+                          {{ . | safeHTML }}
+                        {{ end }}
                         {{ if and .title .description }}
                             <hr class="star-primary">
                         {{ end }}
