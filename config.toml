@@ -6,6 +6,11 @@ googleAnalytics = ""
 
 extensions = ["hardLineBreak"]
 
+[social]
+	twitter = "sfcheeseparty"
+	summary = "Host an original party with your friends! You can now experiment raclette party like in France directly in San Francisco. Order and get everything you need delivered at your door!"
+	domain = "https://sfcheeseparty.com"
+
 [params]
 
 	# You can use Markdown syntax for urls [text](//url.to/source) for
@@ -22,8 +27,10 @@ extensions = ["hardLineBreak"]
 
 	# To provide some metadata for search engines feel free to add some
 	# information about you and your website.
-	name = "Your name"
-	description = "Your description"
+	name = "Nicolas Grenié"
+	description = "Host an original party with your friends! You can now experiment raclette party like in France directly in San Francisco. Order and get everything you need delivered at your door!"
+	Permalink = "https://sfcheeseparty.com"
+	images = ["/img/opengraph.png"]
 
 	# The path must be relative to the static folder
 	favicon = "/favicons/favicon.ico"

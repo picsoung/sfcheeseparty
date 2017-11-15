@@ -14,6 +14,12 @@
 <link rel="manifest" href="/favicons/manifest.json">
 <link rel="mask-icon" href="/favicons/safari-pinned-tab.svg" color="#5bbad5">
 <meta name="theme-color" content="#ffffff">
+
+{{ partial "seo/og.html" . }}
+{{ template "_internal/google_news.html" . }}
+{{ template "_internal/schema.html" . }}
+{{ template "_internal/twitter_cards.html" . }}
+
 {{ "<!-- Bootstrap Core CSS -->" | safeHTML }}
 <link rel="stylesheet" href="{{ "css/bootstrap.min.css" | absURL }}" type="text/css">
 {{ "<!-- Custom Fonts -->" | safeHTML }}
