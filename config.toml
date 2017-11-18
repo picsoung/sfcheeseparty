@@ -5,6 +5,10 @@ theme = "hugo-creative-theme"
 googleAnalytics = ""
 
 extensions = ["hardLineBreak"]
+disableKinds = ["taxonomy", "taxonomyTerm"]
+# [taxonomies]
+# 	category = ""
+# 	tags = ""
 
 [social]
 	twitter = "sfcheeseparty"
