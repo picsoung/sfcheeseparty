@@ -3,6 +3,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 {{ with .Site.Params.name }}<meta name="author" content="{{ . }}">{{ end }}
 {{ with .Site.Params.description }}<meta name="description" content="{{ . }}">{{ end }}
+{{ with .Site.Params.keywords }}<meta name="keywords" content="{{ . }}">{{ end }}
 {{ .Hugo.Generator }}
 <title>{{ .Site.Title }}</title>
 
@@ -35,6 +36,8 @@
 {{ range .Site.Params.custom_css }}
     <link rel="stylesheet" href="{{ . | absURL }}">
 {{ end }}
+
+<script src="//load.sumome.com/" data-sumo-site-id="f0af984a24322e568e484faba2e2bb85778926a01a1a39812634aaf1b5795100" async="async"></script>
 
 {{ "<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->" | safeHTML }}
 {{ "<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->" | safeHTML }}
