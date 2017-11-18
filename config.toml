@@ -11,6 +11,8 @@ extensions = ["hardLineBreak"]
 	summary = "Host an original party with your friends! You can now experiment raclette party like in France directly in San Francisco. Order and get everything you need delivered at your door!"
 	domain = "https://sfcheeseparty.com"
 	fb_appid = 1526640494080558
+	facebook = "sfcheeseparty"
+	instagram = "sfcheeseparty"
 
 [params]
 

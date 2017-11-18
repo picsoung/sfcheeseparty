@@ -42,6 +42,17 @@
                 <p>{{ .Site.Params.contact.made_with }}</p>
               </div>
             {{ end }}
+            <div class="col-lg-8 col-lg-offset-2 text-center">
+            {{ if .Site.Social.facebook }}
+              <a href="https://facebook.com/{{.Site.Social.facebook}}"><i class="fa fa-facebook-square fa-2x"></i></a>
+            {{ end }}
+            {{ if .Site.Social.twitter }}
+              <a href="https://twitter.com/{{.Site.Social.twitter}}"><i class="fa fa-twitter fa-2x"></i></a>
+            {{ end }}
+            {{ if .Site.Social.instagram }}
+              <a href="https://instagram.com/{{.Site.Social.instagram}}"><i class="fa fa-instagram fa-2x"></i></a>
+            {{ end }}
+          </div>
             {{ if .Site.Params.contact.credits }}
               <div class="col-lg-8 col-lg-offset-2 text-center">
                 <h6>Credits</h6>
