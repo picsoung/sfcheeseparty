@@ -36,6 +36,12 @@
                     <a class="page-scroll" href="#location">{{ .Site.Params.navigation.links.location }}</a>
                 </li>
                 {{ end }}
+
+                {{ if .Site.Params.navigation.links.faq }}
+                <li>
+                    <a class="page-scroll" target="_blank" href="{{.Site.Params.navigation.links.faq}}">FAQ</a>
+                </li>
+                {{ end }}
                 {{ if and .Site.Params.contact .Site.Params.navigation.links.contact }}
                     <li>
                         <a class="page-scroll" href="#contact">{{ .Site.Params.navigation.links.contact }}</a>

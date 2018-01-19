@@ -35,6 +35,7 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
 
 		[params.navigation.links]
 			about     = "About"
+			faq = "http://help.sfcheeseparty.com/"
 			contact   = "Contact"
 
 
@@ -116,12 +117,12 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
     buttonText = "Close"
 
   # Aside section
-	# [params.aside]
-	# 	headline = "Get the Creative Theme for Hugo"
-  #
-	# 	[params.aside.button]
-	# 		text = "Download now"
-	# 		link = "//github.com/digitalcraftsman/hugo-creative-theme"
+	[params.aside]
+		headline = "Still have questions?"
+
+		[params.aside.button]
+			text = "Check our FAQ"
+			link = "http://help.sfcheeseparty.com"
 
 	# Contact section
 	[params.contact]
