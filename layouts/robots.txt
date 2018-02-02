@@ -1,0 +1,3 @@
+User-agent: *
+Disallow: /posts/
+Sitemap: https://www.sfcheeseparty.com.com/sitemap.xml
