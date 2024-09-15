@@ -5,7 +5,7 @@ theme = "hugo-creative-theme"
 googleAnalytics = ""
 
 extensions = ["hardLineBreak"]
-disableKinds = ["taxonomy", "taxonomyTerm"]
+disableKinds = ["taxonomy"]
 # [taxonomies]
 # 	category = ""
 # 	tags = ""

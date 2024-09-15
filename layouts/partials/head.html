@@ -4,7 +4,7 @@
 {{ with .Site.Params.name }}<meta name="author" content="{{ . }}">{{ end }}
 {{ with .Site.Params.description }}<meta name="description" content="{{ . }}">{{ end }}
 {{ with .Site.Params.keywords }}<meta name="keywords" content="{{ . }}">{{ end }}
-{{ .Hugo.Generator }}
+{{ hugo.Generator }}
 <title>{{ .Site.Title }}</title>
 
 {{ "<!-- Favicon -->" | safeHTML }}
@@ -17,16 +17,13 @@
 <meta name="theme-color" content="#ffffff">
 
 {{ partial "seo/og.html" . }}
-{{ template "_internal/google_news.html" . }}
-{{ template "_internal/schema.html" . }}
-{{ template "_internal/twitter_cards.html" . }}
 
 {{ "<!-- Bootstrap Core CSS -->" | safeHTML }}
-<link rel="stylesheet" href="{{ "css/bootstrap.min.css" | absURL }}" type="text/css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.min.css" type="text/css">
 {{ "<!-- Custom Fonts -->" | safeHTML }}
 <link href='//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
 <link href='//fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
-<link rel="stylesheet" href="{{ "font-awesome/css/font-awesome.min.css" | absURL }}" type="text/css">
+<!-- <link rel="stylesheet" href="{{ "font-awesome/css/font-awesome.min.css" | absURL }}" type="text/css"> -->
 {{ "<!-- Plugin CSS -->" | safeHTML }}
 <link rel="stylesheet" href="{{ "css/animate.min.css" | absURL }}" type="text/css">
 {{ "<!-- Custom CSS -->" | safeHTML }}
